@@ -37,7 +37,7 @@ function summation(number){
   return sum;
   }
 
-  console.log('Task 2 - Counter:', summation(4));
+  console.log('** Task 2 - Counter:', summation(4));
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
@@ -70,7 +70,7 @@ const zooAnimals = [
     return displayNames;
   }
 
-  console.log('Topic 2 - Request 1:', animalNames(zooAnimals));
+  console.log('** Topic 2 - Request 1:', animalNames(zooAnimals));
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
@@ -86,7 +86,7 @@ const zooAnimals = [
     return lowerCase;
   }
   
-  console.log('Topic 2 - Request 2:', lowerCaseNames(zooAnimals));
+  console.log('** Topic 2 - Request 2:', lowerCaseNames(zooAnimals));
 
   
   /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
@@ -101,7 +101,7 @@ const zooAnimals = [
     return lowPop;
   }
   
-  console.log('Topic 2 - Request 3:', lowPopulationAnimals(zooAnimals));
+  console.log('** Topic 2 - Request 3:', lowPopulationAnimals(zooAnimals));
 
 
   /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁
@@ -117,7 +117,7 @@ const zooAnimals = [
     return totalPop;
   }
   
-  console.log('Topic 2 - Request 4:', USApop(zooAnimals));
+  console.log('** Topic 2 - Request 4:', USApop(zooAnimals));
 
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
@@ -157,9 +157,9 @@ function greeting(firstName, lastName){
 
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-  console.log('Callbacks - Add:', consume(2, 2, add)); // 4
-  console.log('Callbacks - Multiply:', consume(10, 16, multiply)); // 160
-  console.log('Callbacks - Greeting:', consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+  console.log('** Callbacks - Add:', consume(2, 2, add)); // 4
+  console.log('** Callbacks - Multiply:', consume(10, 16, multiply)); // 160
+  console.log('** Callbacks - Greeting:', consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
 //🐴🐴🐴 Task: You are to build a cuboid maker that can return values for a cuboid's volume or surface area. Cuboids are similar to cubes but do not have even sides. Follow the steps in order to accomplish this challenge. 🐴🐴🐴
@@ -204,8 +204,8 @@ const cuboid = new CuboidMaker({
 
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-console.log('Prototypes - Volume:', cuboid.volume()); // 100
-console.log('Prototypes - Surface Area:', cuboid.surfaceArea()); // 130
+console.log('** Prototypes - Volume:', cuboid.volume()); // 100
+console.log('** Prototypes - Surface Area:', cuboid.surfaceArea()); // 130
  
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
@@ -233,8 +233,8 @@ const cuboidTwo = new CuboidMakerTwo({
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-console.log('Classes - Volume:', cuboidTwo.volume()); // 100
-console.log('Classes - Surface Area:', cuboidTwo.surfaceArea()); // 130
+console.log('** Classes - Volume:', cuboidTwo.volume()); // 100
+console.log('** Classes - Surface Area:', cuboidTwo.surfaceArea()); // 130
 
 
 
