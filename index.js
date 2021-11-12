@@ -204,8 +204,8 @@ const cuboid = new CuboidMaker({
 
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-console.log(cuboid.volume()); // 100
-console.log(cuboid.surfaceArea()); // 130
+console.log('Prototypes - Volume:', cuboid.volume()); // 100
+console.log('Prototypes - Surface Area:', cuboid.surfaceArea()); // 130
  
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
@@ -233,8 +233,8 @@ const cuboidTwo = new CuboidMakerTwo({
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-console.log(cuboidTwo.volume()); // 100
-console.log(cuboidTwo.surfaceArea()); // 130
+console.log('Classes - Volume:', cuboidTwo.volume()); // 100
+console.log('Classes - Surface Area:', cuboidTwo.surfaceArea()); // 130
 
 
 
